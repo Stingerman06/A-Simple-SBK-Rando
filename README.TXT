@@ -64,6 +64,9 @@ why. It's hard to decipher since the only debugging this program has isn't the b
 debugging. Example being, there's no debugging when a seed fails to generate, thus I cannot figure out what went wrong
 in the randomization process.
 
+In short, if the seed doesn't generate, just make another one.
+
+
 This will be made public 'as-is' and this particular randomizer will never be updated. This was a learning experience
 for me and the only things I learned was Python Code is quite buggy from the first iteration I made, and making a
 randomizer can be simple if you know what you want to change around.
