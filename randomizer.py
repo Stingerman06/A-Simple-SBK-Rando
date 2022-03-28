@@ -624,6 +624,18 @@ Attributes = [ #116 Attributes to modify
 		lock_if_enabled=None,
 		lock_unless_enabled=["Randomize Tracks", "Randomize M Tracks"],
     ),
+    Attribute( #This is a hotfix for the menu cursor when randomizing any tracks. Update addresses here when/if a discovery occurs for misplaced cursors.
+		name="Hotfixes - Shopping Overflow Fix",
+		addresses=[0x0002F6FC],
+		number_of_bytes=1,
+		is_little_endian=False,
+		possible_values=[30],
+		min_value=None,
+		max_value=None,
+		min_max_interval=None,
+		lock_if_enabled=None,
+		lock_unless_enabled=None,
+    ),
 	Attribute( #Freestyle 1 Price
 		name="Freestyle 1 Price",
 		addresses=[0x000B40B0],
