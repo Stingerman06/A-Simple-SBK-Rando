@@ -1,6 +1,6 @@
 What this is:
 
-A simple Snowboard Kids randomizer for the N64.
+A simple Snowboard Kids randomizer for the N64 that randomizes a ROM you already own.
 
 
 What this isn't:
@@ -75,11 +75,14 @@ randomizer can be simple if you know what you want to change around.
 
 Links to related programs used/required:
 
-Simple Randomizer Maker:
+Simple Randomizer Maker(used to make this):
 https://github.com/Mips96/SimpleRandomizerMaker
 
-Real N64 CRC Tool:
+Real N64 CRC Tool(required):
 https://www.smwcentral.net/?p=section&a=details&id=8799
+
+
+If the links are broken, or if something is just flat out broken(which will definitely happen), drop it in "Issues".
 
 
 Randomizer by Stingerman06
